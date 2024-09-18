@@ -1,13 +1,15 @@
 package ObjetosConta;
 
-import ContaBanca.ItemTemaOp2;
+import ContaBanca.TemaOp2;
 
-public class ObjetosItemTemaOp2 {
+public class ObjetosTemaOp2 {
 
 	public static void main(String[] args) {
-		ItemTemaOp2 item2 = new ItemTemaOp2(2, "Bandeirinhas", "Bandeirinhas coloridas para festa junina");
 
-		System.out.println("Item Tema: " + item2.getNome());
-		System.out.println("Descrição: " + item2.getDescricao());
+		TemaOp2 tema2 = new TemaOp2();
+
+		System.out.println("Tema: " + tema2.getNome());
+		System.out.println("Valor Aluguel: " + tema2.getValorAluguel());
+		System.out.println("Cor da Toalha: " + tema2.getCorToalha());
 	}
 }
