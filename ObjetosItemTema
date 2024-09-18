@@ -1,0 +1,13 @@
+package ObjetosConta;
+
+import ContaBanca.ItemTemaOp2;
+
+public class ObjetosItemTemaOp2 {
+
+	public static void main(String[] args) {
+		ItemTemaOp2 item2 = new ItemTemaOp2(2, "Bandeirinhas", "Bandeirinhas coloridas para festa junina");
+
+		System.out.println("Item Tema: " + item2.getNome());
+		System.out.println("Descrição: " + item2.getDescricao());
+	}
+}
