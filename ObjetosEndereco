@@ -1,0 +1,22 @@
+package ObjetosConta;
+
+import ContaBanca.EnderecoOp1;
+
+public class ObjetosEnderecoOp1 {
+	
+   public static void main(String[] args) {
+	        
+	   EnderecoOp1 endereco = new EnderecoOp1();
+
+       
+       System.out.println("Endereco:");
+       System.out.println("ID: " + endereco.getId());
+       System.out.println("Logradouro: " + endereco.getLogradouro());
+       System.out.println("Número: " + endereco.getNumero());
+       System.out.println("Complemento: " + endereco.getComplemento());
+       System.out.println("Bairro: " + endereco.getBairro());
+       System.out.println("Cidade: " + endereco.getCidade());
+       System.out.println("CEP: " + endereco.getCep());
+       System.out.println("UF: " + endereco.getUf());
+   }
+}
